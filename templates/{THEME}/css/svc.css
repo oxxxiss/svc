@@ -1,0 +1,88 @@
+/*================================================
+ // SVC модуль для DLE
+ //-----------------------------------------------
+ // Автор: oxxxiss aka LisER
+ //-----------------------------------------------
+ // Почта: osimi98@yandex.ru
+ //-----------------------------------------------
+ // skype: liser07
+ //-----------------------------------------------
+ // Назначение: Стилы модуля
+//================================================ */
+
+	div.video-svc-block 
+	{
+		display: -webkit-box;
+		width: 280px;
+		border: 2px solid gainsboro;
+		margin: 5px;
+		padding: 4px;
+		background-color: #FFFFFF;
+		border-radius: 4px;
+		transition: 0.2s;
+		box-shadow: 0px 6px 40px -25px;
+	}
+	div.video-svc-block:hover 
+	{
+		background-color: #CCCACA;
+		transition: 0.2s;
+	}
+	nav#poster img 
+	{
+		width: 100%;
+	}
+	nav#close 
+	{
+		width: 20px;
+		text-align: -webkit-center;
+		margin-bottom: -25px;
+		margin-top: 4px;
+		background-color: rgba(95, 95, 95, 0.75);
+		display: -webkit-inline-box;
+		color: white;
+		margin-left: 256px;
+		transition: 0.2s;
+	}
+	nav#close:hover {
+		background-color: rgba(95, 95, 95, 0.91);
+		transition: 0.2s;
+		cursor: pointer;
+	}
+    nav#circle
+	{
+		width: 100px;
+		height: 100px;
+		background-color: transparent;
+		border-radius: 50%;
+		position: absolute;
+		margin-top: 28px;
+		margin-left: 90px;
+		transition: 0.2s;
+		cursor: pointer;
+		border: 4px solid white;
+	}
+	.video-svc-block:hover nav#circle
+	{
+	    opacity: 1;
+		transition: 0.2s;
+	}
+	nav#circle:hover 
+	{
+	    background-color: rgba(18, 48, 128, 0.87);
+		transition: 0.2s;
+	}
+	nav#play {
+		border: 32px solid transparent;
+		border-left: 45px solid rgba(255, 255, 255, 0.74);
+		margin-left: 33px;
+		margin-top: 18px;
+	}
+	nav#circle:hover nav#play{
+		border-left: 45px solid rgb(255, 255, 255);
+	}
+	nav.circle {
+		opacity: 0;
+	}
+	nav.playvideo {
+		opacity: 0.7;
+	}	
